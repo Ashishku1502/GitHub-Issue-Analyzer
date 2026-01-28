@@ -2,7 +2,9 @@
 
 ## Project Overview
 
-A backend server application that fetches open issues from GitHub repositories, caches them locally in a database, and provides AI-powered analysis using natural language prompts through LLM integration.
+A backend server application that fetches open issues from GitHub repositories, caches them locally in a database, and provides AI-powered analysis using natural language prompts through LLM integrations.
+
+Website / Live Demo: https://app-98uledf5cdfl.appmedo.com (everything working properly)
 
 ## Features
 
@@ -166,7 +168,7 @@ Indexes are created on `repo` and `created_at` for optimal query performance.
 │   ├── routes.tsx # Routing configuration
 │   ├── pages # Pages directory
 │   ├── services # Database interaction directory
-│   ├── types # Type definitions directory
+│   └── types # Type definitions directory
 ├── tsconfig.app.json # TypeScript frontend configuration file
 ├── tsconfig.json # TypeScript configuration file
 ├── tsconfig.node.json # TypeScript Node.js configuration file
@@ -205,9 +207,9 @@ Example:
 ### Installing Node.js on macOS
 
 ```
-# Step 1: Using Homebrew (Recommended method): Open Terminal. Type the command `brew install node` and press Enter. If Homebrew is not installed, you need to install it first by running the following command in Terminal:
+# Step 1: Using Homebrew (Recommended method): Open Terminal. Type the command `brew install node` and press Enter. If Homebrew is not installed, you need to install it first by running the follo...
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-Alternatively, use the official installer: Visit the Node.js official website. Download the macOS .pkg installer. Open the downloaded .pkg file and follow the prompts to complete the installation.
+Alternatively, use the official installer: Visit the Node.js official website. Download the macOS .pkg installer. Open the downloaded .pkg file and follow the prompts to complete the installation...
 # Step 2: Verify installation: Open Command Prompt (cmd) or your IDE terminal, and type `node -v` and `npm -v` to check if Node.js and npm are installed correctly.
 ```
 
@@ -228,5 +230,4 @@ Configure environment variables and install relevant dependencies.If you need to
 
 ## Learn More
 
-You can also check the help documentation: Download and Building the app（ [https://intl.cloud.baidu.com/en/doc/MIAODA/s/download-and-building-the-app-en](https://intl.cloud.baidu.com/en/doc/MIAODA/s/download-and-building-the-app-en)）to learn more detailed content.
-# GitHub-Issue-Analyzer
+You can also check the help documentation: Download and Building the app（ https://intl.cloud.baidu.com/en/doc/MIAODA/s/download-and-building-the-app-en 
